@@ -26,7 +26,7 @@ python ossetic_mlm.py \
 ```
 --learning_rate (по дефолту 5e-5)
 --eval_steps (по дефолту 200)
---save_steps (по дефолту 600)
+--save_steps (по дефолту 200)
 --per_device_train_batch_size (по дефолту 8)
 --per_device_eval_batch_size (по дефолту 8)
 ```
