@@ -6,7 +6,7 @@ python ossetic_mlm.py \
 --hf_token <ваш токен> \
 --model_name ania3000/untrained-ossbert-e \
 --tokenizer_name ania3000/ossbert-e-tokenizer \
---dataset_name ossetic-encoders/onc-unlab \
+--dataset_name ossetic-encoders/onc-unlab (предложения перемешаны) или ossetic-encoders/onc-unlab-unshuffled (предложения не перемешаны) \
 --hub_model_id ossetic-encoders/ossbert-e \
 --num_train_epochs <число эпох> или --max_steps <число шагов>
 ```
@@ -18,7 +18,7 @@ python ossetic_mlm.py \
 --hf_token <ваш токен> \
 --model_name google-bert/bert-base-multilingual-cased \
 --tokenizer_name ania3000/ossbert-tokenizer \
---dataset_name ossetic-encoders/onc-unlab \
+--dataset_name ossetic-encoders/onc-unlab (предложения перемешаны) или ossetic-encoders/onc-unlab-unshuffled (предложения не перемешаны) \
 --hub_model_id ossetic-encoders/ossbert \
 --num_train_epochs <число эпох> или --max_steps <число шагов>
 ```
